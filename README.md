@@ -61,11 +61,11 @@ As árvores B são estruturas de dados **balanceadas**, **autoajustáveis** e **
 Todas as informações devem ser dadas em um arquivo texto:  
 
 1. A ordem da árvore B.  
-2. O número de operações na estrutura, que incluem:  
-   - Inserções (**I**) e as chaves/dados a serem inseridos;  
-   - Remoções (**R**) e as chaves dos dados a serem removidos;  
-   - Buscas (**B**) e as chaves buscadas na árvore resultante.
-3. As operações.
+2. O número total de operações a serem feitas na estrutura.
+3. As operações:
+  - **I** (inserção), que acompanha um par chave/registro a ser inserido;  
+  - **R** (remoção), que acompanha a chave do registro a ser removido;  
+  - **B** (busca), que acompanha a chave do registro a ser buscado na árvore.
 
 Exemplo:
 ```
