@@ -4,6 +4,13 @@
 
 Este trabalho tem como objetivo implementar a estrutura de dados Árvore B, simulando a indexação de registros em armazenamento secundário por meio de um arquivo binário.
 
+### Conteúdos explorados
+- Modularização com TADs opacos
+- Implementação de fila com lista encadeada
+- Implementação da estrutura Árvore B com suas principais operações
+- Alocação dinâmica de memória
+- Makefile
+
 ## Problemática
 
 A **indexação** em bancos de dados é fundamental para otimizar buscas e recuperar registros de forma eficiente em armazenamento secundário, cujo acesso é muito mais lento que o da memória principal. Sem índices adequados, consultas podem exigir leituras sequenciais e exaustivas de grandes volumes de dados irrelevantes, aumentando o tempo de resposta.
@@ -119,10 +126,3 @@ Em seguidam, execute:
 ```bash
 ./prog <nome_arquivo_entrada> <nome_arquivo_saida>
 ```
-
-## Conceitos abrangidos
-- Modularização com TADs opacos
-- Implementação de fila com lista encadeada
-- Implementação da estrutura Árvore B com suas principais operações
-- Alocação dinâmica de memória
-- Makefile
