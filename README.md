@@ -121,7 +121,7 @@ make
 
 O comando irá gerar o executável `prog`.
 
-Em seguidam, execute:
+Em seguida, execute:
 
 ```bash
 ./prog <nome_arquivo_entrada> <nome_arquivo_saida>
